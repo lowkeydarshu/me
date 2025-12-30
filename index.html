@@ -24,6 +24,98 @@
         #footer {
             border-top: 2px solid black;
         }
+
+        /* Tablets / Medium Screens */
+        @media (max-width: 1024px) {
+
+            #r1,
+            #r2,
+            #r3 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #r1-r,
+            #r2-l,
+            #r3-r {
+                margin: 0;
+            }
+
+            #r1-l,
+            #r2-r,
+            #r3-l {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 28px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+
+        /* Mobile / Small Screens */
+        @media (max-width: 768px) {
+
+            #r1-l,
+            #r1-r,
+            #r2-l,
+            #r2-r,
+            #r3-l,
+            #r3-r {
+                width: 100%;
+                margin: 0;
+                padding: 0 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h5,
+            p,
+            li {
+                font-size: 14px;
+            }
+
+            #header img {
+                height: 80px;
+                width: 80px;
+            }
+
+            #r3-r img,
+            #r2-l img,
+            #r1-r img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        /* Extra Small Screens / Phones */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            h5,
+            p,
+            li {
+                font-size: 12px;
+            }
+
+            #header {
+                padding: 10px;
+            }
+
+            #footer {
+                padding: 20px;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
@@ -189,7 +281,8 @@
                 <a href="https://www.facebook.com/profile.php?id=61580008384945" class="text-dark"
                     target="_self">Facebook</a>
                 <a href="https://github.com/lowkeydarshu" class="text-dark" target="_self">Github</a>
-                <a href="https://linkedin.com/in/darshan-lalwani-a22057292" class="text-dark" target="_self">LinkedIn</a>
+                <a href="https://linkedin.com/in/darshan-lalwani-a22057292" class="text-dark"
+                    target="_self">LinkedIn</a>
                 <a href="http://t.me/theogguyy" class="text-dark" target="_self">Telegram</a>
             </div>
         </div>
