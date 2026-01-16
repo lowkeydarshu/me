@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DLalwani</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: thistle;
+        }
+
+        #header {
+            border-bottom: 2px solid black;
+        }
+
+        #header>img:hover {
+            transition: 0.2s;
+            cursor: pointer;
+            border: 2px black solid;
+            border-radius: 15px;
+        }
+
+        #footer {
+            border-top: 2px solid black;
+        }
+
+        /* Tablets / Medium Screens */
+        @media (max-width: 1024px) {
+
+            #r1,
+            #r2,
+            #r3 {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #r1-r,
+            #r2-l,
+            #r3-r {
+                margin: 0;
+            }
+
+            #r1-l,
+            #r2-r,
+            #r3-l {
+                width: 90%;
+            }
+
+            h1 {
+                font-size: 28px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 16px;
+                text-align: justify;
+            }
+        }
+
+        /* Mobile / Small Screens */
+        @media (max-width: 768px) {
+
+            #r1-l,
+            #r1-r,
+            #r2-l,
+            #r2-r,
+            #r3-l,
+            #r3-r {
+                width: 100%;
+                margin: 0;
+                padding: 0 10px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h5,
+            p,
+            li {
+                font-size: 14px;
+            }
+
+            #header img {
+                height: 80px;
+                width: 80px;
+            }
+
+            #r3-r img,
+            #r2-l img,
+            #r1-r img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        /* Extra Small Screens / Phones */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+
+            h5,
+            p,
+            li {
+                font-size: 12px;
+            }
+
+            #header {
+                padding: 10px;
+            }
+
+            #footer {
+                padding: 20px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body class="m-0">
+    <main style="border-top: 2px solid black;">
+        <div id="header" class="text-center p-3 d-flex justify-content-around mb-5">
+            <img src="logo.png" alt="" height="100px" width="100px">
+        </div>
+        <div id="r1" class="d-flex justify-content-around ms-5">
+            <div id="r1-l">
+                <div id="r1-l-t" class="mt-2">
+                    <h1>Heyyyy, You Know Me😉</h1>
+                    <h5>Bsc.[CS-IT] 3-Year Student & Developer.</h5>
+                    <br>
+                    <hr>
+                </div>
+                <div id="r1-l-m">
+                    <h1 class="text-center"><i>About me</i></h1>
+                    <p>I am a dedicated and detail-oriented computer science student with a strong interest in software
+                        development and data-driven technologies.
+                        Currently pursuing my studies at Silver Oak University, I focus on building a solid foundation
+                        in
+                        programming, database management, and problem-solving concepts.
+                        I have hands-on experience with Python, Django, HTML, CSS, Bootstrap, and relational databases,
+                        and
+                        I enjoy applying theoretical knowledge to real-world projects.
+                        I believe in writing clean, efficient code and continuously improving my technical skills
+                        through
+                        practice and learning.
+                        Along with technical expertise, I value teamwork, adaptability, and clear communication, which
+                        help
+                        me collaborate effectively in professional environments.
+                        I am motivated by challenges that push me to think logically and creatively.
+                        My goal is to grow as a skilled software professional, contribute meaningfully to innovative
+                        projects, and build solutions that are practical, scalable, and impactful.</p>
+                    <br>
+                </div>
+                <hr>
+                <div id="r1-l-b" class="text-center">
+                    <h1><i>Technical Skills</i></h1>
+                    <ul style="list-style-type: none;">
+                        <li>HTML, CSS, JS</li>
+                        <li>Python, JAVA, PHP</li>
+                        <li>Bootstrap, C, C++</li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div id="r1-r" class="ms-5">
+                <img src="one.jpg" alt="" height="715px">
+            </div>
+        </div>
+        <div id="r2" class="d-flex justify-content-between">
+            <div id="r2-l" class="ms-0 mt-3">
+                <img src="two.jpeg" width="715px">
+            </div>
+            <div id="r2-r" class="me-5 ms-5">
+                <div id="r2-r-t">
+                    <hr>
+                    <h1 class="text-center"><i>Interests</i></h1>
+                    <p class="text-center">
+                        I am deeply interested in the intersection of technology, creativity, and problem-solving. My
+                        core
+                        focus lies in software development, where I enjoy building web applications using Python,
+                        Django, HTML, CSS, Bootstrap, and working with databases and data structures. I have a strong
+                        academic interest in Computer Science fundamentals, including DBMS, Discrete Mathematics, and
+                        data
+                        analysis. Alongside technology, I actively explore content creation and digital storytelling,
+                        particularly
+                        through comedy and meme-based short-form videos that entertain, educate, and inspire audiences
+                        on social media platforms. I also have a keen eye for aesthetic visuals, cinematic concepts, and
+                        social media branding. Additionally, I am passionate about music, especially listening to and
+                        singing songs, which
+                        helps fuel my creativity. I constantly seek opportunities to learn, experiment, and grow,
+                        blending technical expertise with creative expression to deliver impactful and engaging digital
+                        experiences.
+                    </p>
+                    <hr>
+                </div>
+                <div id="r2-r-m">
+                    <h1 class="text-center"><i>Education</i></h1>
+                    <h3>Pre-primary</h3>
+                    <p>
+                        <li>Universal Primary School, Dhule.</li>
+                    </p>
+                    <h3>Primary</h3>
+                    <p>
+                        <li>Chavara English Medium School, Dhule</li>
+                    </p>
+                    <h3>High School</h3>
+                    <p>
+                        <li>Chavara High School, Dhule</li>
+                    </p>
+                    <h3>SSC</h3>
+                    <p>
+                        <li>Chavara High School, Dhule, Year : 2020-2021</li>
+                    </p>
+                    <h3>HSC</h3>
+                    <p>
+                        <li>Jai Hind Junior College, Dhule, Year : 2022-2023</li>
+                    </p>
+                    <h3>Bsc Degree</h3>
+                    <p>
+                        <li>Silver Oak University, SOCCA | Ahmedabad, Year : 2023-2026 | Status : On-going</li>
+                    </p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div id="r3" class="d-flex justify-content-around mt-5 me-0">
+            <div id="r3-l" class="ms-5">
+                <div id="r3-l-t" class="mt-5">
+                    <hr>
+                    <h1 class="text-center"><i>Internships</i></h1>
+                    <article>
+                        Role : Python Django Trainee <br>
+                        Company name : Techmicra IT Solutions. <br>
+                        Duration : 25 Days <br>
+                        What you worked on : <br>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                    </article>
+                    <hr>
+                </div>
+                <div id="r3-l-m">
+                    <h1 class="text-center"><i>Django Projects</i></h1>
+                    <li>Personal Book LIB Collection.</li>
+                    <li>Employee Directory.</li>
+                    <hr>
+                </div>
+                <div id="r3-l-m2">
+                    <h1 class="text-center">Soft Skills</h1>
+                    <ol>
+                        <li>Adaptability.</li>
+                        <li>Problem-Solver.</li>
+                        <li>Continuous Learner.</li>
+                        <li>Communication Skills.</li>
+                        <li>Self-Movitated.</li>
+                        <li>Teamwork and Collaboration.</li>
+                        <li>Time Management.</li>
+                        <li>Creative.</li>
+                    </ol>
+                    <hr>
+                </div>
+                <div id="r3-l-b">
+                    <h1 class="text-center"><i>Certifications | Courses</i></h1>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Java</li>
+                </div>
+                <hr>
+            </div>
+            <div id="r3-r" class="me-0 ms-5">
+                <img src="three.jpeg" alt="" width="715px" height="940px">
+            </div>
+        </div>
+        <div id="r4" class="mt-5" style="border-top: 2px solid black;">
+            <h1 class="text-center mt-5"><i>Contact Links</i></h1>
+            <div id="links" class="d-flex justify-content-around pt-3">
+                <a href="https://www.facebook.com/profile.php?id=61580008384945" class="text-dark"
+                    target="_self">Facebook</a>
+                <a href="https://github.com/lowkeydarshu" class="text-dark" target="_self">Github</a>
+                <a href="https://linkedin.com/in/darshan-lalwani-a22057292" class="text-dark"
+                    target="_self">LinkedIn</a>
+                <a href="http://t.me/theogguyy" class="text-dark" target="_self">Telegram</a>
+            </div>
+        </div>
+        <div id="footer" class="d-flex justify-content-around mt-5 m-0 p-5" style="border-bottom: 2px solid black;">
+            <h2>Thanks For Visiting!😉</h2>
+        </div>
+    </main>
+</body>
+
+</html>
